@@ -92,7 +92,7 @@
 
 ----------
 
-## acronyms
+## acronyms ❌ optin
 
 Capitalizes acronyms when the first character is capitalized.
 
@@ -118,7 +118,7 @@ Option | Description
 </details>
 <br/>
 
-## andOperator
+## andOperator ⭕️ 142
 
 Prefer comma over `&&` in `if`, `guard` or `while` conditions.
 
@@ -148,7 +148,7 @@ Prefer comma over `&&` in `if`, `guard` or `while` conditions.
 </details>
 <br/>
 
-## anyObjectProtocol
+## anyObjectProtocol ⭕️
 
 Prefer `AnyObject` over `class` in protocol definitions.
 
@@ -167,7 +167,7 @@ swift version is set to 4.1 or above.
 </details>
 <br/>
 
-## assertionFailures
+## assertionFailures ⭕️
 
 Changes all instances of assert(false, ...) to assertionFailure(...) 
 and precondition(false, ...) to preconditionFailure(...).
@@ -193,7 +193,7 @@ and precondition(false, ...) to preconditionFailure(...).
 </details>
 <br/>
 
-## blankLinesAroundMark
+## blankLinesAroundMark ⭕️ 171
 
 Insert blank line before and after `MARK:` comments.
 
@@ -227,7 +227,7 @@ Option | Description
 </details>
 <br/>
 
-## blankLinesAtEndOfScope
+## blankLinesAtEndOfScope ⭕️ 1
 
 Remove trailing blank line at the end of a scope.
 
@@ -263,7 +263,7 @@ Remove trailing blank line at the end of a scope.
 </details>
 <br/>
 
-## blankLinesAtStartOfScope
+## blankLinesAtStartOfScope ⭕️
 
 Remove leading blank line at the start of a scope.
 
@@ -299,7 +299,7 @@ Remove leading blank line at the start of a scope.
 </details>
 <br/>
 
-## blankLinesBetweenImports
+## blankLinesBetweenImports ❌ optin
 
 Remove blank lines between import statements.
 
@@ -320,7 +320,7 @@ Remove blank lines between import statements.
 </details>
 <br/>
 
-## blankLinesBetweenScopes
+## blankLinesBetweenScopes ⭕️ 524
 
 Insert blank line before class, struct, enum, extension, protocol or function
 declarations.
@@ -353,7 +353,7 @@ declarations.
 </details>
 <br/>
 
-## blockComments
+## blockComments ❌ optin
 
 Changes block comments to single line comments.
 
@@ -383,7 +383,7 @@ Changes block comments to single line comments.
 </details>
 <br/>
 
-## braces
+## braces ⭕️
 
 Wrap braces in accordance with selected style (K&R or Allman).
 
@@ -415,7 +415,7 @@ Option | Description
 </details>
 <br/>
 
-## consecutiveBlankLines
+## consecutiveBlankLines ⭕️
 
 Replace consecutive blank lines with a single blank line.
 
@@ -440,7 +440,7 @@ Replace consecutive blank lines with a single blank line.
 </details>
 <br/>
 
-## consecutiveSpaces
+## consecutiveSpaces ⭕️ 104
 
 Replace consecutive spaces with a single space.
 
@@ -455,7 +455,7 @@ Replace consecutive spaces with a single space.
 </details>
 <br/>
 
-## duplicateImports
+## duplicateImports ⭕️
 
 Remove duplicate import statements.
 
@@ -479,7 +479,7 @@ Remove duplicate import statements.
 </details>
 <br/>
 
-## elseOnSameLine
+## elseOnSameLine ⭕️
 
 Place `else`, `catch` or `while` keyword in accordance with current style (same or
 next line).
@@ -540,7 +540,7 @@ Option | Description
 </details>
 <br/>
 
-## emptyBraces
+## emptyBraces ⭕️ 71
 
 Remove whitespace inside empty braces.
 
@@ -562,12 +562,12 @@ Option | Description
 </details>
 <br/>
 
-## enumNamespaces
+## enumNamespaces ⭕️ 47
 
 Converts types used for hosting only static members into enums (an empty enum is
 the canonical way to create a namespace in Swift as it can't be instantiated).
 
-## extensionAccessControl
+## extensionAccessControl ⭕️ 70
 
 Configure the placement of an extension's access control keyword.
 
@@ -611,7 +611,7 @@ Option | Description
 </details>
 <br/>
 
-## fileHeader
+## fileHeader ⭕️
 
 Use specified source file header template for all files.
 
@@ -619,7 +619,7 @@ Option | Description
 --- | ---
 `--header` | Header comments: "strip", "ignore", or the text you wish use
 
-## hoistPatternLet
+## hoistPatternLet ⭕️ 267
 
 Reposition `let` or `var` bindings within pattern.
 
@@ -648,7 +648,7 @@ Option | Description
 </details>
 <br/>
 
-## indent
+## indent ⭕️ 144
 
 Indent code in accordance with the scope level.
 
@@ -708,7 +708,7 @@ Option | Description
 </details>
 <br/>
 
-## initCoderUnavailable
+## initCoderUnavailable ⭕️
 
 Add `@available(*, unavailable)` attribute to required `init(coder:)` when
 it hasn't been implemented.
@@ -726,7 +726,7 @@ it hasn't been implemented.
 </details>
 <br/>
 
-## isEmpty
+## isEmpty ❌ optin
 
 Prefer `isEmpty` over comparing `count` against zero.
 
@@ -752,7 +752,7 @@ reason, the rule is disabled by default, and must be manually enabled via the
 </details>
 <br/>
 
-## leadingDelimiters
+## leadingDelimiters ⭕️
 
 Move leading delimiters to the end of the previous line.
 
@@ -770,7 +770,7 @@ Move leading delimiters to the end of the previous line.
 </details>
 <br/>
 
-## linebreakAtEndOfFile
+## linebreakAtEndOfFile ⭕️
 
 Add empty blank line at end of file.
 
@@ -782,7 +782,7 @@ Option | Description
 --- | ---
 `--linebreaks` | Linebreak character to use: "cr", "crlf" or "lf" (default)
 
-## markTypes
+## markTypes ❌ optin
 
 Adds a mark comment before top-level types and extensions.
 
@@ -814,7 +814,7 @@ Option | Description
 </details>
 <br/>
 
-## modifierOrder
+## modifierOrder ⭕️
 
 Use consistent ordering for member modifiers.
 
@@ -843,7 +843,7 @@ Option | Description
 </details>
 <br/>
 
-## numberFormatting
+## numberFormatting ⭕️ 19
 
 Use consistent grouping for numeric literals. Groups will be separated by `_`
 delimiters to improve readability. For each numeric type you can specify a group
@@ -877,7 +877,7 @@ Option | Description
 </details>
 <br/>
 
-## organizeDeclarations
+## organizeDeclarations ❌ optin
 
 Organizes declarations within class, struct, enum, actor, and extension bodies.
 
@@ -942,11 +942,11 @@ Option | Description
 </details>
 <br/>
 
-## preferDouble
+## preferDouble ❌ optin
 
 Replaces occurrences of CGFloat with Double when targeting Swift 5.5 and above.
 
-## preferKeyPath
+## preferKeyPath ❌ 135
 
 Convert trivial `map { $0.foo }` closures to keyPath-based syntax.
 
@@ -964,7 +964,7 @@ Convert trivial `map { $0.foo }` closures to keyPath-based syntax.
 </details>
 <br/>
 
-## redundantBackticks
+## redundantBackticks ⭕️ 2
 
 Remove redundant backticks around identifiers.
 
@@ -984,7 +984,7 @@ Remove redundant backticks around identifiers.
 </details>
 <br/>
 
-## redundantBreak
+## redundantBreak ⭕️
 
 Remove redundant `break` in switch case.
 
@@ -1005,7 +1005,7 @@ Remove redundant `break` in switch case.
 </details>
 <br/>
 
-## redundantClosure
+## redundantClosure ⭕️ 6
 
 Removes redundant closures bodies, containing a single statement,
 which are called immediately.
@@ -1030,7 +1030,7 @@ which are called immediately.
 </details>
 <br/>
 
-## redundantExtensionACL
+## redundantExtensionACL ⭕️
 
 Remove redundant access control modifiers.
 
@@ -1050,7 +1050,7 @@ Remove redundant access control modifiers.
 </details>
 <br/>
 
-## redundantFileprivate
+## redundantFileprivate ⭕️
 
 Prefer `private` over `fileprivate` where equivalent.
 
@@ -1081,7 +1081,7 @@ members that are only accessed from extensions in the same file:
 </details>
 <br/>
 
-## redundantGet
+## redundantGet ⭕️
 
 Remove unneeded `get` clause inside computed properties.
 
@@ -1103,7 +1103,7 @@ Remove unneeded `get` clause inside computed properties.
 </details>
 <br/>
 
-## redundantInit
+## redundantInit ⭕️
 
 Remove explicit `init` if not required.
 
@@ -1118,7 +1118,7 @@ Remove explicit `init` if not required.
 </details>
 <br/>
 
-## redundantLet
+## redundantLet ⭕️
 
 Remove redundant `let`/`var` from ignored variables.
 
@@ -1133,7 +1133,7 @@ Remove redundant `let`/`var` from ignored variables.
 </details>
 <br/>
 
-## redundantLetError
+## redundantLetError ⭕️
 
 Remove redundant `let error` from `catch` clause.
 
@@ -1148,7 +1148,7 @@ Remove redundant `let error` from `catch` clause.
 </details>
 <br/>
 
-## redundantNilInit
+## redundantNilInit ⭕️ 9
 
 Remove redundant `nil` default value (Optional vars are nil by default).
 
@@ -1173,7 +1173,7 @@ var foo: Int? = 0
 </details>
 <br/>
 
-## redundantObjc
+## redundantObjc ⭕️
 
 Remove redundant `@objc` annotations.
 
@@ -1198,7 +1198,7 @@ Remove redundant `@objc` annotations.
 </details>
 <br/>
 
-## redundantParens
+## redundantParens ❌ 27
 
 Remove redundant parentheses.
 
@@ -1228,7 +1228,7 @@ Remove redundant parentheses.
 </details>
 <br/>
 
-## redundantPattern
+## redundantPattern ⭕️
 
 Remove redundant pattern matching parameter syntax.
 
@@ -1248,7 +1248,7 @@ Remove redundant pattern matching parameter syntax.
 </details>
 <br/>
 
-## redundantRawValues
+## redundantRawValues ⭕️ 6
 
 Remove redundant raw string values for enum cases.
 
@@ -1270,7 +1270,7 @@ Remove redundant raw string values for enum cases.
 </details>
 <br/>
 
-## redundantReturn
+## redundantReturn ⭕️ 11
 
 Remove unneeded `return` keyword.
 
@@ -1285,7 +1285,7 @@ Remove unneeded `return` keyword.
 </details>
 <br/>
 
-## redundantSelf
+## redundantSelf ❌ 310
 
 Insert/remove explicit `self` where applicable.
 
@@ -1340,7 +1340,7 @@ by using `--self init-only`:
 </details>
 <br/>
 
-## redundantType
+## redundantType ⭕️ 30
 
 Remove redundant type from variable declarations.
 
@@ -1375,7 +1375,7 @@ Option | Description
 </details>
 <br/>
 
-## redundantVoidReturnType
+## redundantVoidReturnType ⭕️ 86
 
 Remove explicit `Void` return type.
 
@@ -1399,7 +1399,7 @@ Option | Description
 </details>
 <br/>
 
-## semicolons
+## semicolons ⭕️
 
 Remove semicolons.
 
@@ -1430,7 +1430,7 @@ goto(fail)
 </details>
 <br/>
 
-## sortDeclarations
+## sortDeclarations ❌
 
 Sorts the body of declarations with // swiftformat:sort
 and declarations between // swiftformat:sort:begin and
@@ -1481,7 +1481,7 @@ and declarations between // swiftformat:sort:begin and
 </details>
 <br/>
 
-## sortedImports
+## sortedImports ⭕️
 
 Sort import statements alphabetically.
 
@@ -1517,11 +1517,11 @@ Option | Description
 </details>
 <br/>
 
-## sortedSwitchCases
+## sortedSwitchCases ❌
 
 Sorts switch cases alphabetically.
 
-## spaceAroundBraces
+## spaceAroundBraces ⭕️ 7
 
 Add or remove space around curly braces.
 
@@ -1541,7 +1541,7 @@ Add or remove space around curly braces.
 </details>
 <br/>
 
-## spaceAroundBrackets
+## spaceAroundBrackets ⭕️ 2
 
 Add or remove space around square brackets.
 
@@ -1561,7 +1561,7 @@ Add or remove space around square brackets.
 </details>
 <br/>
 
-## spaceAroundComments
+## spaceAroundComments ⭕️
 
 Add space before and/or after comments.
 
@@ -1581,7 +1581,7 @@ Add space before and/or after comments.
 </details>
 <br/>
 
-## spaceAroundGenerics
+## spaceAroundGenerics ⭕️
 
 Remove space around angle brackets.
 
@@ -1596,7 +1596,7 @@ Remove space around angle brackets.
 </details>
 <br/>
 
-## spaceAroundOperators
+## spaceAroundOperators ⭕️ 33
 
 Add or remove space around operators or delimiters.
 
@@ -1627,7 +1627,7 @@ Option | Description
 </details>
 <br/>
 
-## spaceAroundParens
+## spaceAroundParens ⭕️ 6
 
 Add or remove space around parentheses.
 
@@ -1647,7 +1647,7 @@ Add or remove space around parentheses.
 </details>
 <br/>
 
-## spaceInsideBraces
+## spaceInsideBraces ⭕️ 7
 
 Add space inside curly braces.
 
@@ -1662,7 +1662,7 @@ Add space inside curly braces.
 </details>
 <br/>
 
-## spaceInsideBrackets
+## spaceInsideBrackets ⭕️ 2
 
 Remove space inside square brackets.
 
@@ -1677,7 +1677,7 @@ Remove space inside square brackets.
 </details>
 <br/>
 
-## spaceInsideComments
+## spaceInsideComments ⭕️
 
 Add leading and/or trailing space inside comments.
 
@@ -1697,7 +1697,7 @@ Add leading and/or trailing space inside comments.
 </details>
 <br/>
 
-## spaceInsideGenerics
+## spaceInsideGenerics ⭕️
 
 Remove space inside angle brackets.
 
@@ -1712,7 +1712,7 @@ Remove space inside angle brackets.
 </details>
 <br/>
 
-## spaceInsideParens
+## spaceInsideParens ⭕️ 11
 
 Remove space inside parentheses.
 
@@ -1727,13 +1727,13 @@ Remove space inside parentheses.
 </details>
 <br/>
 
-## specifiers
+## specifiers ❌
 
 Use consistent ordering for member modifiers.
 
 *Note: specifiers rule is deprecated. Use modifierOrder instead.*
 
-## strongOutlets
+## strongOutlets ❌ 608
 
 Remove `weak` modifier from `@IBOutlet` properties.
 
@@ -1751,7 +1751,7 @@ As per Apple's recommendation
 </details>
 <br/>
 
-## strongifiedSelf
+## strongifiedSelf ⭕️
 
 Remove backticks around `self` in Optional unwrap expressions.
 
@@ -1770,7 +1770,7 @@ set to 4.2 or above.
 </details>
 <br/>
 
-## todos
+## todos ❌ 2
 
 Use correct formatting for `TODO:`, `MARK:` or `FIXME:` comments.
 
@@ -1790,7 +1790,7 @@ Use correct formatting for `TODO:`, `MARK:` or `FIXME:` comments.
 </details>
 <br/>
 
-## trailingClosures
+## trailingClosures ⭕️
 
 Use trailing closure syntax where applicable.
 
@@ -1815,7 +1815,7 @@ Option | Description
 </details>
 <br/>
 
-## trailingCommas
+## trailingCommas ⭕️
 
 Add or remove trailing comma from the last item in a collection literal.
 
@@ -1843,7 +1843,7 @@ Option | Description
 </details>
 <br/>
 
-## trailingSpace
+## trailingSpace ⭕️ 27
 
 Remove trailing space at end of a line.
 
@@ -1851,7 +1851,7 @@ Option | Description
 --- | ---
 `--trimwhitespace` | Trim trailing space: "always" (default) or "nonblank-lines"
 
-## typeSugar
+## typeSugar ⭕️ 1
 
 Prefer shorthand syntax for Arrays, Dictionaries and Optionals.
 
@@ -1880,7 +1880,7 @@ Option | Description
 </details>
 <br/>
 
-## unusedArguments
+## unusedArguments ??? 610
 
 Mark unused function arguments with `_`.
 
@@ -1924,7 +1924,7 @@ Option | Description
 </details>
 <br/>
 
-## void
+## void ⭕️ 65
 
 Use `Void` for type declarations and `()` for values.
 
@@ -1963,7 +1963,7 @@ Option | Description
 </details>
 <br/>
 
-## wrap
+## wrap ❌
 
 Wrap lines that exceed the specified maximum width.
 
@@ -1974,7 +1974,7 @@ Option | Description
 `--assetliterals` | Color/image literal width. "actual-width" or "visual-width"
 `--wrapternary` | Wrap ternary operators: "default", "before-operators"
 
-## wrapArguments
+## wrapArguments ⭕️ 45
 
 Align wrapped function arguments or collection elements.
 
@@ -2049,7 +2049,7 @@ provided for `--wrapparameters`, the value for `--wraparguments` will be used.
 </details>
 <br/>
 
-## wrapAttributes
+## wrapAttributes ⭕️
 
 Wrap @attributes onto a separate line, or keep them on the same line.
 
@@ -2101,7 +2101,7 @@ Option | Description
 </details>
 <br/>
 
-## wrapConditionalBodies
+## wrapConditionalBodies ❌ optin
 
 Wrap the bodies of inline conditional statements onto a new line.
 
@@ -2125,7 +2125,7 @@ Wrap the bodies of inline conditional statements onto a new line.
 </details>
 <br/>
 
-## wrapEnumCases
+## wrapEnumCases ❌ optin
 
 Writes one enum case per line.
 
@@ -2146,7 +2146,7 @@ Writes one enum case per line.
 </details>
 <br/>
 
-## wrapMultilineStatementBraces
+## wrapMultilineStatementBraces ⭕️ 68
 
 Wrap the opening brace of multiline statements.
 
@@ -2210,7 +2210,7 @@ Wrap the opening brace of multiline statements.
 </details>
 <br/>
 
-## wrapSwitchCases
+## wrapSwitchCases ❌ optin
 
 Writes one switch case per line.
 
@@ -2233,7 +2233,7 @@ Writes one switch case per line.
 </details>
 <br/>
 
-## yodaConditions
+## yodaConditions ⭕️ 23
 
 Prefer constant values to be on the right-hand-side of expressions.
 
